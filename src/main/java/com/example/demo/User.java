@@ -1,29 +1,23 @@
 package com.example.demo;
 
 public class User {
-  private String name;
-  private int age;
+    private String name;
+    private int age;
 
-  // コンストラクタ
-  public User(String in_name, int in_age) {
-    this.name = in_name;
-    this.age  = in_age;
-  }
+    // Getter and Setter
+    public String getName() {
+        return name;
+    }
 
-  // ゲッター
-  public String getName() {
-    return this.name;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-  public int GetAge() {
-    return this.age;
-  }
+    public int getAge() {
+        return age;
+    }
 
-  public void setName(String in_name) {
-    this.name = in_name;
-  }
-
-  public void setAge(int in_age) {
-    this.age = in_age;
-  }
+    public void setAge(int age) {
+        this.age = age;
+    }
 }

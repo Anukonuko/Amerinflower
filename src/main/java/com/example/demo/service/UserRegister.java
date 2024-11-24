@@ -12,7 +12,7 @@ public class UserRegister {
 	@Autowired
     private UserRepository userRepository;  // リポジトリのインジェクション
 	
-	public UserTable RegisterIppanUser(String name,String email) {
+	public UserTable RegisterIppanUser(String name, String email) {
 		//インスタンス化
 		UserTable UserTable = new UserTable();
 		

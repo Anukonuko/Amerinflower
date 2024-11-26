@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユーザーフォーム</title>
+</head>
+<body>
+    <h1>ユーザー情報フォーム</h1>
+
+    <!-- フォームの開始 -->
+    <form action="/otameshi" method="POST">
+        <label for="name">名前:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">年齢:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="email">メールアドレス:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="passWord">パスワード:</label><br>
+        <input type="password" id="passWord" name="passWord" required><br><br>
+
+        <button type="submit">送信</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+.headerWrapper{
+  background-color:var(--white);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: o;
+}
+.headerInner{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 25px;
+}
